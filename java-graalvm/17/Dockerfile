@@ -1,7 +1,7 @@
-FROM        ghcr.io/graalvm/jdk-community:17-22.3.2
+FROM        ghcr.io/graalvm/jdk-community:17-ol8
 
 LABEL       author="Softwarenoob" maintainer="admin@softwarenoob.com"
-LABEL       org.opencontainers.image.source="https://github.com/wcdfilll/pterodactyl-images"
+LABEL       org.opencontainers.image.source="https://github.com/Software-Noob/pterodactyl-images"
 LABEL       org.opencontainers.image.licenses="MIT"
 
 RUN         microdnf update \
